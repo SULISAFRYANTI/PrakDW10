@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #84735e">
+    <a class="navbar-brand" style="color: aliceblue;" href="#">Portofolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" style="color: aliceblue;" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: aliceblue;" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: aliceblue;" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="about" class="container mt-5 " style="text-align: center;">
+    <img class="rounded" src="foto.jpg" alt="" width="100" >
+    <h2 style="font-size: large; font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 10px;">Sulis Afryanti Lubis</h2>
+    <h4 style="font-size: large; font-family: Georgia, 'Times New Roman', Times, serif;">Mahasiswa | Data Analyst</h4>  
+    
+    <p style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: 10px;">Saya Mahasiswa Semester 3 memiliki minat pada bidang pengolahan data. 
+    Mata kuliah yang relevan untuk mendalami bidang tersebut adalah Basis Data dan Statistik Probabilitas. Selain memiliki minat pada bidang pengolahan data saya pun tertarik pada bidang komunikasi tentu nya komunikasi pun menjadi skill penting dalam kehidupan </p>
+  </div>
+
+  <div id="projects" class="container">
+    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px; color: #564335;">Projects</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="foto1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body" style="background-color: #84735e;">
+            <h5 class="card-title" style="color: whitesmoke; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">My SQL</h5>
+            <p class="card-text" style="color: whitesmoke; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Mencari sebuah data dengan Query yang sudah di tentukan merupakan bagian pembelajaran pada Basis Data dan emrupakan dasar pada SQL</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="foto2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body" style="background-color: #84735e;">
+            <h5 class="card-title" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: whitesmoke;">Desain Pembuatan Database</h5>
+            <p class="card-text" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: whitesmoke; ">Pembuatan DataBase merupakan implementasi pada mata kuliah Basis Data dimana ini menjadi dasar pada pengoprasian pengolahan data.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="foto3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body" style="background-color: #84735e;">
+            <h5 class="card-title" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: whitesmoke">Implementasi JavaScript</h5>
+            <p class="card-text" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: whitesmoke">Pengimplementasian materi Asosiasi, Komposisi, dan Nested Class pada Mata Kuliah Pemrograman Berorientasi Objek</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="container text-center">
+    <h1  style="color: #564335; font-size: large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Contact Me</h1>
+    <p style="margin-bottom: auto;">Contact information goes here.</p>
+    <div class="row" style="justify-content: center; margin-bottom: 5px;">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                  <label for="Nama" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="Nama" aria-describedby="Nama">
+                </div>
+                <div class="mb-3">
+                    <label for="Nama" class="form-label" style="margin-bottom: auto;">Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="Email">
+                  </div>
+               
+                
+                <button type="submit" class="btn" style="background-color: #564335; color: antiquewhite;">Submit</button>
+              </form>
+        </div>
+    </div>
+    
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+  <footer class="footer mt-auto py-3 " style="background-color: #564335;">
+    <div class="container text-center">
+        <p style="color: antiquewhite;">
+           Created By <a href="https://instagram.com/kewpiewijen?igshid=MTk0NTkyODZkYg==">Sulis Afryanti Lubis</a>
+        </p>
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
